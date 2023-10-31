@@ -23,3 +23,24 @@ func main() {
     fmt.Println("Hello, World!")
 }
 ```
+## Step 4: Understand the code
+
+Let's break down what this code does:
+
+- `package main`: Every Go program starts with a package declaration. The `main` package is special—it defines an executable program.
+
+- `import "fmt"`: This line imports the `fmt` package, which contains functions for formatting input and output. It's part of the Go standard library.
+
+- `func main() {...}`: This is the entry point of your program. When you execute the program, Go starts by running the `main` function.
+
+- `fmt.Println("Hello, World!")`: This line uses the `Println` function from the `fmt` package to print "Hello, World!" to the console.
+
+
+
+## Step 5: Run the program
+
+Open a terminal or command prompt, navigate to the directory containing `hello.go`, and run the following command:
+
+```bash
+go run hello.go
+```
